@@ -1,0 +1,8 @@
+{
+  "name": "gulp-vue-template2js",
+  "version": false,
+  "dependencies": {},
+  "ambientDependencies": {
+    "node": "registry:dt/node#4.0.0+20160319033040"
+  }
+}
