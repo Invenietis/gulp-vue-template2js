@@ -1,6 +1,6 @@
 {
   "name": "gulp-vue-template2js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inject HTML templates into your vue component files.",
   "main": "index.js",
   "dependencies": {
