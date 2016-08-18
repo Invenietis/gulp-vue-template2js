@@ -22,7 +22,7 @@ module.exports = function(options) {
             this.emit('error', new PluginError(PLUGIN_NAME, 'Streams not supported!'));
             callback();
         } else  {
-            var dir = file.dirname,
+            var dir = file.path.replace(/[^\\/]+\.js$/ig, ''),
                 content = file.contents.toString(),
                 htmlPath;
             
